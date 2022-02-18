@@ -1,1 +1,0 @@
-# MINA-Laboratory-Management-System
