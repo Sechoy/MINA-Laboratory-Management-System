@@ -1,0 +1,28 @@
+<view class="square_top">
+    <image class="pic" src="../../images/笔记本电脑1.png" mode="scaleToFill"></image>
+    <view class="name">{{expinfo[idx].exp_name}}</view>
+</view>
+
+<view class="square_mid">
+    <view class="list">
+        <view class="title">发布时间</view>
+        <view>{{expinfo[idx].start_time}}</view>
+    </view>
+    <view class="list">
+        <view class="title">截止时间</view>
+        <view>{{expinfo[idx].end_time}}</view>
+    </view>
+    <view class="list">
+        <view class="title1">发布人</view>
+        <view>教师姓名</view>
+    </view>
+    <view class="list">
+        <view class="title">所属课程</view>
+        <view>{{expinfo[idx].refer_course_name}}</view>
+    </view>
+</view>
+
+<view class="square">
+    <view class="task">实验任务</view>
+    <x-textarea class="task-content" disabled="{{true}}" indicator="{{false}}" value="{{expinfo[idx].task}}"/>
+</view>

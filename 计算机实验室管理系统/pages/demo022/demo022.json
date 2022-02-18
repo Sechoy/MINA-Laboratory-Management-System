@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "x-card":"/miniprogram_npm/lin-ui/card/index",
+    "x-icon":"/miniprogram_npm/lin-ui/icon/index"
+
+  }
+}

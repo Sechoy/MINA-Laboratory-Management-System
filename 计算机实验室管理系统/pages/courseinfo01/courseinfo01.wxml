@@ -1,0 +1,47 @@
+<!--pages/courseinfo01/courseinfo01.wxml-->
+<view class="square_top">
+    <image class="pic" src="../../images/台式电脑1.png" mode="scaleToFill"></image>
+    <view class="name-code">
+       <view class="name">{{courseinfo[idx].course_name}}</view>
+       <view class="code">课程代码:   {{courseinfo[idx].course_id}}</view>
+    </view>
+</view>
+
+<view class="square_mid">
+  
+    <view class="list">
+        <view class="title2">学分</view>
+        <view>{{courseinfo[idx].credit}}</view>
+    </view>
+    <view class="list">
+        <view class="title">教师姓名</view>
+        <view>{{courseinfo[idx].teacher_name}}</view>
+    </view>
+    <view class="list">
+        <view class="title1">周学时</view>
+        <view>{{courseinfo[idx].week_times}}</view>
+    </view>
+    <view class="list">
+        <view class="title1">总学时</view>
+        <view>{{courseinfo[idx].times}}</view>
+    </view>
+    <view class="list">
+        <view class="title">课程性质</view>
+        <view>{{courseinfo[idx].course_type}}</view>
+    </view>
+    <view class="list">
+        <view class="title">先修课程</view>
+        <view>{{courseinfo[idx].pre_course}}</view>
+    </view>
+    <view class="list">
+        <view class="title">上课地点</view>
+        <view>{{courseinfo[idx].address}}</view>
+    </view>
+</view>
+
+<view class="square">
+    <view class="task">课程介绍</view>
+    <x-textarea class="task-content" aoto-height="{{true}}" maxlength="-1" disabled="{{true}}" indicator="{{false}}" value="{{courseinfo[idx].course_intro}}"/>
+</view>
+
+

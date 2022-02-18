@@ -1,0 +1,59 @@
+<!--pages/demo01/demo01.wxml-->
+
+<view wx:if="{{identity==1}}">
+<view class="square_top">
+  <view class="text_name">{{username}}</view>
+  <text class="text_hello">您好!</text>
+</view>
+
+<view class="sq">
+  <view bindtap="goto_timetable" class="square_min">
+    <image class="icon" src="../../images/课表查询.png"></image>
+    <view class="text">课表查询</view>
+  </view>
+  <view bindtap="goto_courseinfo" class="square_min">
+    <image class="icon" src="../../images/课程信息查询.png"></image>
+    <view class="text">课程信息查询</view>
+  </view>
+</view>
+<view class="sq">
+  <view bindtap="goto_studentinfo" class="square_min">
+    <image class="icon" src="../../images/用户信息查询.png"></image>
+    <view class="text">学生信息查询</view>
+  </view>
+  <view bindtap="goto_publish"class="square_min">
+    <image class="icon" src="../../images/实验任务查询.png"></image>
+    <view class="text">发布实验任务</view>
+  </view>
+</view>
+</view>
+
+
+<view wx:else>
+  <view class="square_top">
+  <view class="text_name">{{username}}</view>
+  <text class="text_hello">您好!</text>
+</view>
+
+<view class="sq">
+  <view bindtap="goto_timetable" class="square_min">
+    <image class="icon" src="../../images/课表查询.png"></image>
+    <view class="text">课表查询</view>
+  </view>
+  <view bindtap="goto_courseinfo" class="square_min">
+    <image class="icon" src="../../images/课程信息查询.png"></image>
+    <view class="text">课程信息查询</view>
+  </view>
+</view>
+<view class="sq">
+  <view bindtap="goto_teacherinfo" class="square_min">
+    <image class="icon" src="../../images/用户信息查询.png"></image>
+    <view class="text">教师信息查询</view>
+  </view>
+  <view bindtap="goto_taskinfo"class="square_min">
+    <image class="icon" src="../../images/实验任务查询.png"></image>
+    <view class="text">实验任务查询</view>
+  </view>
+</view>
+
+</view>

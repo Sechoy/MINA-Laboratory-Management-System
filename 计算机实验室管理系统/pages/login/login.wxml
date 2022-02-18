@@ -1,0 +1,10 @@
+<!--pages/login/login.wxml-->
+<image class = "loginpic" src="../../images/登陆1.png"></image>
+<view class="square">
+<x-input value="{{userid}}" bind:linblur="bindUserid" label="学工号" placeholder="请输入学工号"></x-input>
+
+<x-input value="{{password}}" bind:linblur="bindPassword" label="密码" placeholder="请输入密码"></x-input>
+<x-button class="button" width="500" size="large" bindtap="login">登陆</x-button>
+</view>
+
+<x-dialog/>

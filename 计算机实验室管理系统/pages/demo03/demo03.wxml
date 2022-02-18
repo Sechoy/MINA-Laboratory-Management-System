@@ -1,0 +1,14 @@
+
+
+<view class="square">
+  <x-avatar class="info" open-data="{{['userAvatarUrl','userNickName']}}"/>
+</view>
+
+<view class="square">
+  <x-list bindtap="setpassword" gap="50" class="list" title="修改密码" icon="setting"/>
+  <x-list gap="50" class="list" title="关于" icon="order"/>
+</view>
+<x-button class="button" height="100" width="600" bindtap="exit">退出登陆</x-button>
+
+<x-dialog bind:linconfirm="home"/>
+

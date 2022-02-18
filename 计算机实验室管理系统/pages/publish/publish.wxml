@@ -1,0 +1,29 @@
+<!--pages/publish/publish.wxml-->
+
+<view class='expListView'>
+<block wx:for="{{expinfo}}" wx:key="index">
+  <view class='item' wx:key="{{item.ID}}" bindtap='dunHuanAction' data-item= "{{item}}" data-id="{{item.ID}}" >
+
+    <view class='iconImageView'>
+     <image class="iconImage" src="../../images/台式电脑2.png" mode="scaleToFill"></image>
+    </view>
+
+   <view class='expNameView'>
+    <view class='expNameText'>{{item.exp_name}}</view>
+   </view>
+
+   <view class='submitView'>
+    <text class='submitText'>未发布</text>
+   </view>
+   
+   <view class='endView'>
+    <text class = 'endText'>截止时间：{{item.end_time}}</text>
+   </view>
+
+   <view class='upview'>
+    <x-button plain="{{true}} "class='buttonView' bindtap="goto_publish01" data-infoid="{{index}}">发布</x-button>
+   </view>
+ 
+  </view>
+</block>
+</view>

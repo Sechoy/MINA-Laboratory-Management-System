@@ -1,0 +1,32 @@
+<!--pages/studentinfo01/studentinfo01.wxml-->
+<view class="square_top">
+    <image class="pic" src="../../images/头像3.png" mode="scaleToFill"></image>
+    <view class="name-code">
+       <view class="name">{{studentinfo[idx].name}}</view>
+       <view class="code">邮箱:   {{studentinfo[idx].email}}</view>
+    </view>
+</view>
+
+<view class="square_mid">
+  
+    <view class="list">
+        <view class="title2">性别</view>
+        <view>{{studentinfo[idx].sex}}</view>
+    </view>
+    <view class="list">
+        <view class="title">联系电话</view>
+        <view>{{studentinfo[idx].tel}}</view>
+    </view>
+    <view class="list">
+        <view class="title2">年级</view>
+        <view>{{studentinfo[idx].grade}}</view>
+    </view>
+    <view class="list">
+        <view class="title2">专业</view>
+        <view>{{studentinfo[idx].major}}</view>
+    </view>
+    <view class="list">
+        <view class="title">所属院系</view>
+        <view>{{studentinfo[idx].department}}</view>
+    </view>
+</view>

@@ -1,0 +1,79 @@
+/* pages/demo01/demo01.wxss */
+.pic{
+  display: flex;
+  width: 10%;
+  height: 50rpx;
+}
+.square_top{
+  display: flex;
+  margin-top: 20px;
+  position:relative;
+  top:20rpx;
+  width: 92%;
+  height: 300rpx;
+  left: 4%;
+  display: inline-block;
+  box-shadow:0 4rpx 20rpx 0 rgba(212,217,223,.5);
+  border-radius:4px;
+  background-color: #3963bc;
+
+}
+.square{
+  display: flex;
+  margin-top: 20px;
+  position:relative;
+  top:20rpx;
+  width: 92%;
+  height: 300rpx;
+  left: 4%;
+  display: inline-block;
+  box-shadow:0 4rpx 20rpx 0 rgba(212,217,223,.5);
+  border-radius:4px;
+}
+
+.square_min{
+  margin-left:20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  position:relative;
+  width: 260rpx;
+  height: 220rpx;
+  display: inline-block;
+  box-shadow:0 4rpx 20rpx 0 rgba(212,217,223,.5);
+  border-radius:4px;
+}
+.sq{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  width: 80%;
+  height: 80%;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+}
+.text_name{
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.text_hello{
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 30px;
+}

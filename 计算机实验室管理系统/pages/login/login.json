@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "x-button":"/miniprogram_npm/lin-ui/button/index",
+    "x-input":"/miniprogram_npm/lin-ui/input/index",
+    "x-message":"/miniprogram_npm/lin-ui/message/index",
+    "x-dialog":"/miniprogram_npm/lin-ui/dialog/index"
+  }
+}

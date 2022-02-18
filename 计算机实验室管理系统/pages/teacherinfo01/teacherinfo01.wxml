@@ -1,0 +1,42 @@
+<!--pages/teacherinfo01/teacherinfo01.wxml-->
+<view class="square_top">
+    <image class="pic" src="../../images/台式电脑1.png" mode="scaleToFill"></image>
+    <view class="name-code">
+       <view class="name">{{teacherinfo[idx].name}}</view>
+       <view class="code">邮箱:   {{teacherinfo[idx].email}}</view>
+    </view>
+</view>
+
+<view class="square_mid">
+  
+    <view class="list">
+        <view class="title2">性别</view>
+        <view>{{teacherinfo[idx].sex}}</view>
+    </view>
+    <view class="list">
+        <view class="title">联系电话</view>
+        <view>{{teacherinfo[idx].tel}}</view>
+    </view>
+    <view class="list">
+        <view class="title2">学历</view>
+        <view>{{teacherinfo[idx].education}}</view>
+    </view>
+    <view class="list">
+        <view class="title2">学位</view>
+        <view>{{teacherinfo[idx].degree}}</view>
+    </view>
+    <view class="list">
+        <view class="title2">职称</view>
+        <view>{{teacherinfo[idx].pro_title}}</view>
+    </view>
+    <view class="list">
+        <view class="title">学科方向</view>
+        <view>人工智能</view>
+    </view>
+    <view class="list">
+        <view class="title">所属院系</view>
+        <view>{{teacherinfo[idx].department}}</view>
+    </view>
+</view>
+
+

@@ -1,0 +1,37 @@
+<!--pages/timetable/timetable.wxml-->
+
+<view class="square">
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">周一</view>
+    <view class="th">周二</view>
+    <view class="th ">周三</view>
+    <view class="th ">周四</view>
+    <view class="th ">周五</view>
+    <view class="th ">周六</view>
+    <view class="th ">周日</view>
+
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.coursename1}}</view>
+      <view class="td">{{item.coursename2}}</view>
+      <view class="td">{{item.coursename3}}</view>
+      <view class="td">{{item.coursename4}}</view>
+      <view class="td">{{item.coursename5}}</view>
+      <view class="td">{{item.coursename6}}</view>
+      <view class="td">{{item.coursename7}}</view>
+
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.coursename1}}</view>
+      <view class="td">{{item.coursename2}}</view>
+      <view class="td">{{item.coursename3}}</view>
+      <view class="td">{{item.coursename4}}</view>
+      <view class="td">{{item.coursename5}}</view>
+      <view class="td">{{item.coursename6}}</view>
+      <view class="td">{{item.coursename7}}</view>
+    </view>
+  </block>
+</view>
+</view>

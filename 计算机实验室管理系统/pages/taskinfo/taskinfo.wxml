@@ -1,0 +1,25 @@
+<x-input value="{{name}}" bind:linblur="bindname" placeholder="请输入所属课程名称（可选）"></x-input>
+
+<view class='expListView'>
+<block wx:for="{{expinfo}}" wx:key="index">
+  <view class='item' wx:key="{{item.ID}}" bindtap='dunHuanAction' data-item= "{{item}}" data-id="{{item.ID}}" >
+
+    <view class='iconImageView'>
+     <image class="iconImage" src="../../images/笔记本电脑1.png" mode="scaleToFill"></image>
+    </view>
+
+   <view class='expNameView'>
+    <view class='expNameText'>{{item.exp_name}}</view>
+   </view>
+
+   <view class='endView'>
+    <text class = 'endText'>所属课程：{{item.refer_course_name}}</text>
+   </view>
+
+   <view class='upview'>
+    <x-button plain="{{true}} "class='buttonView' bindtap="submit" data-infoid="{{index}}">详情</x-button>
+   </view>
+ 
+  </view>
+</block>
+</view>

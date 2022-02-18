@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/demo01/demo01",
+    "pages/submit/submit",
+    "pages/demo02/demo02",
+    "pages/demo03/demo03",
+    "pages/demo022/demo022",
+    "pages/timetable/timetable",
+    "pages/timetable1/timetable1",
+    "pages/courseinfo/courseinfo",
+    "pages/courseinfo01/courseinfo01",
+    "pages/teacherinfo/teacherinfo",
+    "pages/teacherinfo01/teacherinfo01",
+    "pages/studentinfo/studentinfo",
+    "pages/studentinfo01/studentinfo01",
+    "pages/taskinfo/taskinfo",
+    "pages/taskinfo01/taskinfo01",
+    "pages/publish/publish",
+    "pages/publish01/publish01",
+    "pages/setpassword/setpassword",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "计算机实验管理系统",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "selectedColor":"#3963bc",
+    "list": [{
+      "pagePath": "pages/demo01/demo01",
+      "text": "信息查询",
+      "iconPath":"images/分类1.png",
+      "selectedIconPath":"images/分类.png"
+    },{
+      "pagePath": "pages/demo02/demo02",
+      "text": "实验报告",
+      "iconPath":"images/表单1.png",
+      "selectedIconPath":"images/表单.png"
+    },{
+      "pagePath": "pages/demo03/demo03",
+      "text": "个人中心",
+      "iconPath":"images/我的1.png",
+      "selectedIconPath":"images/我的.png"
+    }]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

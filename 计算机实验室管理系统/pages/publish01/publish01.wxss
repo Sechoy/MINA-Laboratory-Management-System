@@ -1,0 +1,80 @@
+/* pages/publish01/publish01.wxss */
+.square_top{
+  flex-direction: row;
+  display: flex;
+  margin-top: 20px;
+  position:relative;
+  top:20rpx;
+  width: 92%;
+  height: 300rpx;
+  left: 4%;
+  box-shadow:0 4rpx 20rpx 0 rgba(212,217,223,.5);
+  border-radius:4px;
+}
+.square{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  position:relative;
+  top:20rpx;
+  width: 87%;
+  height: 600rpx;
+  left: 4%;
+  display: inline-block;
+  box-shadow:0 4rpx 20rpx 0 rgba(212,217,223,.5);
+  border-radius:4px;
+}
+.square_mid{
+  margin-top: 20px;
+  padding: 15px;
+  position:relative;
+  top:20rpx;
+  width: 87%;
+  height: 400rpx;
+  left: 4%;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow:0 4rpx 20rpx 0 rgba(212,217,223,.5);
+  border-radius:4px;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  padding: 17px;
+}
+.title{
+  padding-left: 10px;
+  padding-right: 70px;
+}
+.title1{
+  padding-left: 10px;
+  padding-right: 86px;
+}
+.pic{
+  display: flex;
+  width: 50%;
+  height: 300rpx;
+}
+.name{
+  padding-top: 35px;
+  font-size: 20px;
+}
+.info{
+  display: inline-block;
+  padding: 3px;
+  justify-content: center;
+
+}
+.task{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.task-content{
+  padding: 10px 10px;
+}
+.button{
+  display: flex;
+  margin:20px;
+  justify-content: center;
+}
